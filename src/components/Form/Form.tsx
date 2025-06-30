@@ -5,7 +5,8 @@ import type { SubmitHandler } from "react-hook-form";
 type FormProps = {
   children: React.ReactNode;
   defaultValues?: object;
-  onSubmit: SubmitHandler;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  onSubmit: SubmitHandler<any>;
   className: string;
 };
 
