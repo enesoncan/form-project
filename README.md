@@ -58,3 +58,8 @@ npm install
 npm run dev
 ```
 App will run at http://localhost:5173
+
+Also check out the live project at the following link;
+```bash
+https://form-project-9rqc.vercel.app/
+```
